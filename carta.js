@@ -31,7 +31,7 @@ var PLATOS = [
     ingredientes: "Res, parmesano, rúcula, alcaparras, limón, aceite de oliva",
     maridaje: "Copa de vino blanco seco",
     color: "#5c2a2a",
-    img: foto("carpaccio,beef", 31)
+    img:"assets/Copilot_20261009_205640.png"
   },
   {
     nombre: "Ceviche de la casa",
@@ -43,7 +43,7 @@ var PLATOS = [
     ingredientes: "Pescado del día, limón, cebolla morada, cilantro, ají, plátano",
     maridaje: "Limonada de la casa o vino blanco",
     color: "#2f4a4f",
-    img: foto("ceviche", 32)
+    img: "assets/Copilot_20261009_205648.png"
   },
   {
     nombre: "Crema de hongos",
@@ -55,7 +55,7 @@ var PLATOS = [
     ingredientes: "Hongos, crema, cebolla, tomillo, aceite de trufa, pan",
     maridaje: "Copa de vino tinto ligero",
     color: "#4a3a2a",
-    img: foto("mushroom,soup", 33)
+    img: "assets/Copilot_20261009_205650.png"
   },
   {
     nombre: "Filete de res al vino tinto",
@@ -67,7 +67,7 @@ var PLATOS = [
     ingredientes: "Filete de res, vino tinto, papa, mantequilla, vegetales de temporada",
     maridaje: "Vino tinto de cuerpo medio",
     color: "#5a2323",
-    img: foto("steak,dinner", 34)
+    img: "assets/Copilot_20261009_210314.png"
   },
   {
     nombre: "Salmón a la mantequilla de limón",
@@ -79,7 +79,7 @@ var PLATOS = [
     ingredientes: "Salmón, mantequilla, limón, espárragos, papas baby, eneldo",
     maridaje: "Vino blanco con cuerpo",
     color: "#7a4a3a",
-    img: foto("salmon,dish", 35)
+    img: "assets/Copilot_20261009_210315.png"
   },
   {
     nombre: "Risotto de hongos",
@@ -91,7 +91,7 @@ var PLATOS = [
     ingredientes: "Arroz arborio, hongos, parmesano, vino blanco, caldo, mantequilla",
     maridaje: "Vino blanco seco",
     color: "#5a4a30",
-    img: foto("risotto", 36)
+    img:"assets/Copilot_20261009_210310.png"
   },
   {
     nombre: "Pollo relleno de espinaca",
@@ -103,7 +103,7 @@ var PLATOS = [
     ingredientes: "Pollo, espinaca, queso crema, hierbas finas, arroz, almendras",
     maridaje: "Copa de vino rosado",
     color: "#6a4a2a",
-    img: foto("chicken,dish", 37)
+    img: "assets/Copilot_20261009_210312.png"
   },
   {
     nombre: "Volcán de chocolate",
@@ -115,7 +115,7 @@ var PLATOS = [
     ingredientes: "Chocolate semiamargo, mantequilla, huevo, helado de vainilla, frutos rojos",
     maridaje: "Café espresso o vino dulce",
     color: "#3a2220",
-    img: foto("chocolate,cake", 38)
+    img: "assets/Copilot_20261009_210313.png"
   },
   {
     nombre: "Crème brûlée",
@@ -127,7 +127,7 @@ var PLATOS = [
     ingredientes: "Crema, yema de huevo, vainilla, azúcar",
     maridaje: "Café o licor de naranja",
     color: "#7a6030",
-    img: foto("creme,brulee", 39)
+    img: "assets/Copilot_20261009_210316.png"
   },
   {
     nombre: "Cheesecake de frutos rojos",
@@ -139,7 +139,7 @@ var PLATOS = [
     ingredientes: "Queso crema, galleta, fresas, frutos rojos, vainilla",
     maridaje: "Té o espumante",
     color: "#6a2a3a",
-    img: foto("cheesecake", 40)
+    img: "assets/Copilot_20261009_211436.png"
   },
   {
     nombre: "Copa de vino de la casa",
@@ -151,7 +151,7 @@ var PLATOS = [
     ingredientes: "Tinto, blanco o rosado según disponibilidad",
     maridaje: "Va con cualquier plato de la carta",
     color: "#4a1a2a",
-    img: foto("wine,glass", 41)
+    img: "assets/images (4).jpg"
   },
   {
     nombre: "Limonada de la casa",
@@ -163,6 +163,6 @@ var PLATOS = [
     ingredientes: "Limón, hierbabuena, azúcar, hielo, jengibre (opcional)",
     maridaje: "Ideal con las entradas frías",
     color: "#4a6a3a",
-    img: foto("lemonade", 42)
+    img: "assets/images (5).jpg"
   }
 ];
