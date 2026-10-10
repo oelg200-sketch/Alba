@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alba | Restaurante de cocina de autor</title>
+<meta name="description" content="Cocina de autor, carta de vinos y ambiente íntimo. Mira la carta, los horarios y reserva tu mesa por WhatsApp.">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Íconos reutilizables -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.300 1.200-1.800 1.200-.5.1-1 .2-3.300-.7-2.800-1.200-4.600-4-4.700-4.200-.1-.2-1.100-1.500-1.100-2.900s.7-2 1-2.300c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 2c.1.2.1.400 0 .5l-.4.600-.4.400c-.1.200-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.200 1 2.100 1.300 2.400 1.500.3.100.5.100.6-.1l.9-1.100c.2-.3.400-.2.600-.1l1.900.9c.3.100.5.200.5.300.1.200.1.800-.1 1.400z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.500a4.500 4.500 0 1 1 0 9 4.500 4.500 0 0 1 0-9zm0 2a2.500 2.500 0 1 0 0 5 2.500 2.500 0 0 0 0-5zm5.200-3.200a1.100 1.100 0 1 1 0 2.200 1.100 1.100 0 0 1 0-2.200z"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8V6.500c0-.7.200-1 1.200-1H17V2h-2.600C11.300 2 10 3.700 10 6.200V8H8v3.500h2V22h4V11.500h2.800L17.300 8H14z"/></symbol>
+  <symbol id="i-tt" viewBox="0 0 24 24"><path d="M16.500 2h-3.300v13.200a2.800 2.800 0 1 1-2.800-2.800c.3 0 .6 0 .8.100V9.100a6.100 6.100 0 1 0 5.300 6V8.700A7.500 7.500 0 0 0 21 10.200V6.900A4.300 4.300 0 0 1 16.500 2z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.200 7 13 7 13s7-7.800 7-13a7 7 0 0 0-7-7zm0 9.500A2.500 2.500 0 1 1 12 6a2.500 2.500 0 0 1 0 5.500z"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 5v5.400l4 2.400-.8 1.300L11 13V7h2z"/></symbol>
+</svg>
+
+<nav class="nav" aria-label="Principal">
+  <div class="wrap">
+    <a href="#inicio" class="logo"><img src="assets/logo.svg" alt="">Alba</a>
+    <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">&#9776;</button>
+    <ul class="menu" id="menu">
+      <li><a href="#historia">Historia</a></li>
+      <li><a href="#carta">Carta</a></li>
+      <li><a href="#reservas">Reservas</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a class="btn btn-gold" href="#reservas">Reservar</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="inicio">
+  <div class="wrap">
+    <p class="hero-tag">Cocina de autor &middot; San Salvador</p>
+    <h1>Alba</h1>
+    <div class="orn" aria-hidden="true"><span></span><i></i><span></span></div>
+    <p class="hero-sub">Sabores de temporada, vinos seleccionados y una mesa pensada para quedarse.</p>
+    <div class="btns">
+      <a class="btn btn-gold" href="#reservas">Reservar mesa</a>
+      <a class="btn btn-line" href="#carta">Ver la carta</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="historia">
+  <div class="wrap about">
+    <div class="photo" role="img" aria-label="Interior del restaurante"></div>
+    <div>
+      <h2>Una cena sin prisa</h2>
+      <p>En Alba cocinamos con ingredientes frescos y de la zona, con técnica clásica y un toque propio. Cada plato se prepara al momento y se sirve con calma.</p>
+      <p>Ofrecemos un ambiente íntimo con luz cálida, ideal para celebraciones, cenas en pareja o reuniones de negocios.</p>
+      <ul class="points">
+        <li>Ingredientes frescos y de temporada</li>
+        <li>Carta de vinos y coctelería</li>
+        <li>Reservas para grupos y eventos privados</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="carta" class="alt">
+  <div class="wrap">
+    <h2 class="center">La carta</h2>
+    <p class="sub center">Toca un plato para ver sus ingredientes y el maridaje que recomendamos.</p>
+    <div class="tabs" id="tabs" role="group" aria-label="Categorías de la carta"></div>
+    <div class="dishes" id="platos"></div>
+    <p class="note center">Precios en dólares, impuestos incluidos. Avísanos si tienes alergias o restricciones.</p>
+  </div>
+</section>
+
+<section id="reservas" class="dark">
+  <div class="wrap res">
+    <div>
+      <h2>Horarios</h2>
+      <div class="state" id="estado"><i></i><span>Calculando…</span></div>
+      <table>
+        <tr data-d="1"><td>Lunes</td><td>Cerrado</td></tr>
+        <tr data-d="2"><td>Martes</td><td>12:00 – 10:00 pm</td></tr>
+        <tr data-d="3"><td>Miércoles</td><td>12:00 – 10:00 pm</td></tr>
+        <tr data-d="4"><td>Jueves</td><td>12:00 – 10:00 pm</td></tr>
+        <tr data-d="5"><td>Viernes</td><td>12:00 – 11:00 pm</td></tr>
+        <tr data-d="6"><td>Sábado</td><td>12:00 – 11:00 pm</td></tr>
+        <tr data-d="0"><td>Domingo</td><td>12:00 – 6:00 pm</td></tr>
+      </table>
+    </div>
+    <div>
+      <h2>Reserva tu mesa</h2>
+      <p class="sub">Llena los datos y te llevamos a WhatsApp con el mensaje listo para enviar.</p>
+      <form id="form-reserva" class="form">
+        <label>Nombre<input type="text" id="r-nombre" required autocomplete="name"></label>
+        <div class="row">
+          <label>Personas
+            <select id="r-personas" required>
+              <option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>
+            </select>
+          </label>
+          <label>Fecha<input type="date" id="r-fecha" required></label>
+          <label>Hora<input type="time" id="r-hora" value="19:00" required></label>
+        </div>
+        <label>Comentarios (opcional)<input type="text" id="r-nota" placeholder="Cumpleaños, alergias, terraza..."></label>
+        <button class="btn btn-gold" type="submit"><svg class="icon"><use href="#i-wa"/></svg>Enviar por WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="wrap">
+    <h2 class="center">Contacto</h2>
+    <p class="sub center">Escríbenos para reservas, eventos o cualquier duda.</p>
+    <div class="contact">
+      <a class="card" href="https://wa.me/50300000000" target="_blank" rel="noopener"><svg class="icon"><use href="#i-wa"/></svg><div><strong>WhatsApp</strong><span>+503 0000 0000</span></div></a>
+      <a class="card" href="https://instagram.com/restaurantealba" target="_blank" rel="noopener"><svg class="icon"><use href="#i-ig"/></svg><div><strong>Instagram</strong><span>@restaurantealba</span></div></a>
+      <a class="card" href="https://facebook.com/restaurantealba" target="_blank" rel="noopener"><svg class="icon"><use href="#i-fb"/></svg><div><strong>Facebook</strong><span>/restaurantealba</span></div></a>
+      <a class="card" href="https://tiktok.com/@restaurantealba" target="_blank" rel="noopener"><svg class="icon"><use href="#i-tt"/></svg><div><strong>TikTok</strong><span>@restaurantealba</span></div></a>
+    </div>
+    <a class="where" href="https://www.google.com/maps/search/?api=1&query=Restaurante+San+Salvador+El+Salvador" target="_blank" rel="noopener"><svg class="icon"><use href="#i-pin"/></svg>Calle Principal #123, San Salvador, El Salvador &middot; Abrir en Google Maps</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; <span id="y"></span> Alba Restaurante. Todos los derechos reservados.</span>
+    <span>San Salvador, El Salvador</span>
+  </div>
+</footer>
+
+<a class="fab" href="https://wa.me/50300000000?text=Hola%2C%20quiero%20reservar%20una%20mesa" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp"><svg><use href="#i-wa"/></svg></a>
+
+<dialog id="modal" aria-labelledby="m-titulo">
+  <button type="button" class="m-cerrar" aria-label="Cerrar">&times;</button>
+  <div class="m-body">
+    <div class="m-img"></div>
+    <div class="m-info">
+      <h3 id="m-titulo"></h3>
+      <p class="m-precio"></p>
+      <p class="m-texto"></p>
+      <dl class="m-lista"></dl>
+      <a class="btn btn-gold m-wa" href="#" target="_blank" rel="noopener"><svg class="icon"><use href="#i-wa"/></svg>Reservar y probarlo</a>
+    </div>
+  </div>
+</dialog>
+
+<script src="carta.js"></script>
+<script src="menu.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
